@@ -59,21 +59,21 @@
 		<Compiler>
 			<Add option="-std=c++11" />
 			<Add option="-Wall" />
-			<Add directory="C:/dev64/include" />
+			<Add directory="Z:/EndlessSkyDev/dev64/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-Wl,--subsystem,windows" />
 			<Add option="-lwinmm" />
-			<Add library="C:\Program Files\mingw64\x86_64-w64-mingw32\lib\libmingw32.a" />
-			<Add library="C:\dev64\lib\libsdl2main.a" />
-			<Add library="C:\dev64\lib\libsdl2.dll.a" />
-			<Add library="C:\dev64\lib\libpng.dll.a" />
-			<Add library="C:\dev64\lib\libturbojpeg.dll.a" />
-			<Add library="C:\dev64\lib\libjpeg.dll.a" />
-			<Add library="C:\dev64\lib\libopenal32.dll.a" />
-			<Add library="C:\dev64\lib\libglew32.dll.a" />
-			<Add library="C:\Program Files\mingw64\x86_64-w64-mingw32\lib\libopengl32.a" />
-			<Add directory="C:/dev64/lib" />
+			<Add library="C:\Program Files\mingw-w64\x86_64-5.2.0-posix-seh-rt_v4-rev1\mingw64\x86_64-w64-mingw32\lib\libmingw32.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libsdl2main.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libsdl2.dll.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libpng.dll.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libturbojpeg.dll.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libjpeg.dll.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libopenal32.dll.a" />
+			<Add library="Z:\EndlessSkyDev\dev64\lib\libglew32.dll.a" />
+			<Add library="C:\Program Files\mingw-w64\x86_64-5.2.0-posix-seh-rt_v4-rev1\mingw64\x86_64-w64-mingw32\lib\libopengl32.a" />
+			<Add directory="Z:/EndlessSkyDev/dev64/lib" />
 		</Linker>
 		<Unit filename="source/AI.cpp" />
 		<Unit filename="source/AI.h" />
