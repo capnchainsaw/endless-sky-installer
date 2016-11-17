@@ -22,23 +22,20 @@
       <Directory Id="TARGETDIR" Name="SourceDir">
          <Directory Id="ProgramFilesFolder">
             <Directory Id="INSTALLDIR" Name="EndlessSky">
-				<Directory Id="BinDir" Name="bin">
-				<Directory Id="BinReleaseDir" Name="Release">
-				   <Component Id="ApplicationFiles" Guid="2a053ccf-0712-4016-bd41-24fcdc7c91ce">
-					  <File Id="EndlessSkyApp" Source="bin\Release\EndlessSky.exe"/>
-					  <File Id="glew32dll" Source="bin\Release\glew32.dll"/>
-					  <File Id="libgccsseh1dll" Source="bin\Release\libgcc_s_seh-1.dll"/>
-					  <File Id="libjpeg62dll" Source="bin\Release\libjpeg-62.dll"/>
-					  <File Id="libpng1515dll" Source="bin\Release\libpng15-15.dll"/>
-					  <File Id="libstdc6dll" Source="bin\Release\libstdc++-6.dll"/>
-					  <File Id="libturbojpegdll" Source="bin\Release\libturbojpeg.dll"/>
-					  <File Id="libwinpthread1dll" Source="bin\Release\libwinpthread-1.dll"/>
-					  <File Id="OpenAL32dll" Source="bin\Release\OpenAL32.dll"/>
-					  <File Id="SDL2dll" Source="bin\Release\SDL2.dll"/>
-					  <File Id="softoaldll" Source="bin\Release\soft_oal.dll"/>
-					  <File Id="zlib1dll" Source="bin\Release\zlib1.dll"/>
-				   </Component>
-				</Directory>
+			   <Component Id="ApplicationFiles" Guid="2a053ccf-0712-4016-bd41-24fcdc7c91ce">
+				  <File Id="EndlessSkyApp" Source="..\bin\Release\EndlessSky.exe"/>
+				  <File Id="glew32dll" Source="..\bin\Release\glew32.dll"/>
+				  <File Id="libgccsseh1dll" Source="..\bin\Release\libgcc_s_seh-1.dll"/>
+				  <File Id="libjpeg62dll" Source="..\bin\Release\libjpeg-62.dll"/>
+				  <File Id="libpng1515dll" Source="..\bin\Release\libpng15-15.dll"/>
+				  <File Id="libstdc6dll" Source="..\bin\Release\libstdc++-6.dll"/>
+				  <File Id="libturbojpegdll" Source="..\bin\Release\libturbojpeg.dll"/>
+				  <File Id="libwinpthread1dll" Source="..\bin\Release\libwinpthread-1.dll"/>
+				  <File Id="OpenAL32dll" Source="..\bin\Release\OpenAL32.dll"/>
+				  <File Id="SDL2dll" Source="..\bin\Release\SDL2.dll"/>
+				  <File Id="softoaldll" Source="..\bin\Release\soft_oal.dll"/>
+				  <File Id="zlib1dll" Source="..\bin\Release\zlib1.dll"/>
+			   </Component>
             </Directory>
          </Directory>
  
