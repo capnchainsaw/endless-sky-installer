@@ -4,5 +4,5 @@ del EndlessSky.wixobj
 del EndlessSky.wixpdb
 python populate_wxs.py
 candle EndlessSky.wxs
-light EndlessSky.wixobj
+light -ext WixUIExtension -cultures:en-us EndlessSky.wixobj
 @pause
